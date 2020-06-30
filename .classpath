@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_171">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/10.2.0/server/jdbc/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="F:/JAVA AND PYTHON WEB PROJECTS/JAVA WEB PROJECT FOR ONLINE  BANKING SERVICES/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/JAVA AND PYTHON WEB PROJECTS/JAVA WEB PROJECT FOR ONLINE  BANKING SERVICES/jsp-api-2.1.jar"/>
+	<classpathentry kind="lib" path="F:/QEdgeWorksace/KB/commons-io-2.7/commons-io-2.7.jar"/>
+	<classpathentry kind="lib" path="F:/QEdgeWorksace/KB/commons-io-2.7/commons-io-2.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="F:/QEdgeWorksace/KB/commons-io-2.7/commons-io-2.7-sources.jar"/>
+	<classpathentry kind="lib" path="F:/QEdgeWorksace/KB/commons-io-2.7/commons-io-2.7-tests.jar"/>
+	<classpathentry kind="lib" path="F:/QEdgeWorksace/KB/commons-io-2.7/commons-io-2.7-test-sources.jar"/>
+	<classpathentry kind="lib" path="F:/QEdgeWorksace/KB/commons-fileupload-1.0/commons-fileupload-1.0.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

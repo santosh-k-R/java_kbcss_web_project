@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+
+
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>InitServlet</servlet-name>
+		<servlet-class>com.kbcss.util.InitServlet</servlet-class>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/config/system.properties</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>LoginActionServlet</servlet-name>
+		<servlet-class>
+			com.kbcss.action.LoginActionServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>SendQuestion</servlet-name>
+		<servlet-class>com.kbcss.action.SendQuestion</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>SubdropDownmenu</servlet-name>
+		<servlet-class>com.kbcss.action.SubdropDownmenu</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewAnswer</servlet-name>
+		<servlet-class>com.kbcss.action.ViewAnswer</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>LogoutAction</servlet-name>
+		<servlet-class>com.kbcss.action.LogoutAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewQuestion</servlet-name>
+		<servlet-class>com.kbcss.action.ViewQuestion</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ChekUserAction</servlet-name>
+		<servlet-class>com.kbcss.action.ChekUserAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>RegisterAction</servlet-name>
+		<servlet-class>com.kbcss.action.RegisterAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>GiveandViewAnswer</servlet-name>
+		<servlet-class>
+			com.kbcss.action.GiveandViewAnswer
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>SendAnswer</servlet-name>
+		<servlet-class>com.kbcss.action.SendAnswer</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>AddNewForum</servlet-name>
+		<servlet-class>com.kbcss.action.AddNewForum</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>InsertForumDetails</servlet-name>
+		<servlet-class>
+			com.kbcss.action.InsertForumDetails
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewForum</servlet-name>
+		<servlet-class>com.kbcss.action.ViewForum</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>StartForumServlet</servlet-name>
+		<servlet-class>
+			com.kbcss.action.StartForumServlet
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>Dummyservlet</servlet-name>
+		<servlet-class>com.kbcss.action.Dummyservlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ChatForum</servlet-name>
+		<servlet-class>com.kbcss.action.ChatForum</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>AddNewSubject</servlet-name>
+		<servlet-class>com.kbcss.action.AddNewSubject</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewSubjectExperts</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewSubjectExperts
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>AddCollege</servlet-name>
+		<servlet-class>com.kbcss.action.AddCollege</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewCollege</servlet-name>
+		<servlet-class>com.kbcss.action.ViewCollege</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>UpdateCollege</servlet-name>
+		<servlet-class>com.kbcss.action.UpdateCollege</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+
+		<servlet-name>LoginActionServlet</servlet-name>
+		<url-pattern>/LoginActionServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SendQuestion</servlet-name>
+		<url-pattern>/SendQuestion</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SubdropDownmenu</servlet-name>
+		<url-pattern>/SubdropDownmenu</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewAnswer</servlet-name>
+		<url-pattern>/ViewAnswer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutAction</servlet-name>
+		<url-pattern>/LogoutAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewQuestion</servlet-name>
+		<url-pattern>/ViewQuestion</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChekUserAction</servlet-name>
+		<url-pattern>/ChekUserAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RegisterAction</servlet-name>
+		<url-pattern>/RegisterAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GiveandViewAnswer</servlet-name>
+		<url-pattern>/GiveandViewAnswer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SendAnswer</servlet-name>
+		<url-pattern>/SendAnswer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddNewForum</servlet-name>
+		<url-pattern>/AddNewForum</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>InsertForumDetails</servlet-name>
+		<url-pattern>/InsertForumDetails</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewForum</servlet-name>
+		<url-pattern>/ViewForum</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StartForumServlet</servlet-name>
+		<url-pattern>/StartForumServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Dummyservlet</servlet-name>
+		<url-pattern>/Dummyservlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChatForum</servlet-name>
+		<url-pattern>/ChatForum</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddNewSubject</servlet-name>
+		<url-pattern>/AddNewSubject</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewSubjectExperts</servlet-name>
+		<url-pattern>/ViewSubjectExperts</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddCollege</servlet-name>
+		<url-pattern>/AddCollege</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewCollege</servlet-name>
+		<url-pattern>/ViewCollege</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateCollege</servlet-name>
+		<url-pattern>/UpdateCollege</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>viewSubjectMaterial</servlet-name>
+		<servlet-class>
+			com.kbcss.action.viewSubjectMaterialAction
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>AddMaterial</servlet-name>
+		<servlet-class>com.kbcss.action.AddMaterial</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewCollegeByid</servlet-name>
+		<servlet-class>com.kbcss.action.ViewCollegeByid</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewByDateorSubject</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewByDateorSubject
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewForumBYdateorsubject</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewForumBYdateorsubject
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewCategoryQuestion</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewCategoryQuestion
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>GiveMarks</servlet-name>
+		<servlet-class>com.kbcss.action.GiveMarks</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewSubject</servlet-name>
+		<servlet-class>com.kbcss.action.ViewSubject</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewPreviousForums</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewPreviousForums
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewPersonalProfile</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewPersonalProfile
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewStudentProfile</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewStudentProfile
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewSstatisticalReport</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewSstatisticalReport
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ChangePasswordAction</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ChangePasswordAction
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ChangequestionAction</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ChangequestionAction
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewPreviousForumdetails</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewPreviousForumdetails
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewSubjectInfo</servlet-name>
+		<servlet-class>com.kbcss.action.ViewSubjectInfo</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>PostQueryAction</servlet-name>
+		<servlet-class>com.kbcss.action.PostQueryAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewQueriesAction</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewQueriesAction
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>SolutionAction</servlet-name>
+		<servlet-class>com.kbcss.action.SolutionAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>PostSolutionAction</servlet-name>
+		<servlet-class>
+			com.kbcss.action.PostSolutionAction
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewQueryStatusAction</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewQueryStatusAction
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewSolutionAction</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewSolutionAction
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>Chating</servlet-name>
+		<servlet-class>com.kbcss.action.Chating</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>UpdateForumAction</servlet-name>
+		<servlet-class>
+			com.kbcss.action.UpdateForumAction
+		</servlet-class>
+	</servlet>
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<servlet-name>ViewFeedbackManager</servlet-name>
+		<servlet-class>
+			com.kbcss.action.ViewFeedbackManager
+		</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadAction</servlet-name>
+    <servlet-class>com.kbcss.action.DownloadAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>viewSubjectMaterial</servlet-name>
+		<url-pattern>/viewSubjectMaterial</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddMaterial</servlet-name>
+		<url-pattern>/AddMaterial</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewCollegeByid</servlet-name>
+		<url-pattern>/ViewCollegeByid</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewByDateorSubject</servlet-name>
+		<url-pattern>/ViewByDateorSubject</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewForumBYdateorsubject</servlet-name>
+		<url-pattern>/ViewForumBYdateorsubject</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewCategoryQuestion</servlet-name>
+		<url-pattern>/ViewCategoryQuestion</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GiveMarks</servlet-name>
+		<url-pattern>/GiveMarks</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewSubject</servlet-name>
+		<url-pattern>/ViewSubject</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>ViewPreviousForums</servlet-name>
+		<url-pattern>/ViewPreviousForums</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewPersonalProfile</servlet-name>
+		<url-pattern>/ViewPersonalProfile</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewStudentProfile</servlet-name>
+		<url-pattern>/ViewStudentProfile</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewSstatisticalReport</servlet-name>
+		<url-pattern>/ViewSstatisticalReport</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChangePasswordAction</servlet-name>
+		<url-pattern>/ChangePasswordAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChangequestionAction</servlet-name>
+		<url-pattern>/ChangequestionAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewPreviousForumdetails</servlet-name>
+		<url-pattern>/ViewPreviousForumdetails</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewSubjectInfo</servlet-name>
+		<url-pattern>/ViewSubjectInfo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PostQueryAction</servlet-name>
+		<url-pattern>/PostQuery</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewQueriesAction</servlet-name>
+		<url-pattern>/ViewQueries</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SolutionAction</servlet-name>
+		<url-pattern>/Solution</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PostSolutionAction</servlet-name>
+		<url-pattern>/PostSolution</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewQueryStatusAction</servlet-name>
+		<url-pattern>/ViewQueryStatus</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewSolutionAction</servlet-name>
+		<url-pattern>/ViewSolution</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Chating</servlet-name>
+		<url-pattern>/Chating</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateForumAction</servlet-name>
+		<url-pattern>/UpdateForumAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewFeedbackManager</servlet-name>
+		<url-pattern>/ViewFeedbackManager</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadAction</servlet-name>
+    <url-pattern>/Download</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+	<welcome-file-list>
+		<welcome-file>/jsps/LoginForm.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

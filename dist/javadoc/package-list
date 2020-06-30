@@ -1,0 +1,11 @@
+com.kbcss.action
+com.kbcss.bean
+com.kbcss.daoI
+com.kbcss.daoImpl
+com.kbcss.dbutil
+com.kbcss.delegate
+com.kbcss.exception
+com.kbcss.formbean
+com.kbcss.serviceI
+com.kbcss.serviceImpl
+com.kbcss.util
